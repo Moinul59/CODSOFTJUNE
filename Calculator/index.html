@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Calculator</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+  <link href="style.css" rel="stylesheet">
+</head>
+
+<body>
+  <div class="outer-container">
+    <div class="calculator-container">
+      <div class="output">
+        <input type="text" name="output" />
+      </div>
+      <div class="keypad">
+        <div class="row">
+          <button class="button orange row1">AC</button>
+          <button class="button orange row1"><i
+              class="bi bi-backspace"></i></button>
+          <button class="button orange row1">%</button>
+          <button class="button orange row1">/</button>
+        </div>
+        <div class="row">
+          <button class="button">7</button>
+          <button class="button">8</button>
+          <button class="button">9</button>
+          <button class="button orange">*</button>
+        </div>
+        <div class="row">
+          <button class="button">4</button>
+          <button class="button">5</button>
+          <button class="button">6</button>
+          <button class="button orange">-</button>
+        </div>
+        <div class="row">
+          <button class="button">1</button>
+          <button class="button">2</button>
+          <button class="button">3</button>
+          <button class="button orange">+</button>
+        </div>
+        <div class="row">
+          <button class="button orange">00</button>
+          <button class="button">0</button>
+          <button class="button">.</button>
+          <button class="button" id="orange">=</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>
